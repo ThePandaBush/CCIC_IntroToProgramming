@@ -1,4 +1,19 @@
-String [] week = {"mon", "tue", "wed", "thu", "fri"};
-println(week[week.length - 1]);
-week[0] = "sun";
-println(week[3]);
+String[] foods = {"Lychee", "Calzones", "Apples"};
+foods[0] = "zuccini";
+foods[2] = "fried eggs";
+println(foods[0]);
+println(foods[2]); //println(arrName[arrName.length -1])
+
+int[][] data = {
+  {0,    1,   2,   3,   4,   5,   6,   7,  8,  9}, // 0
+  {-1,   0,   1,   2,   3,   4,   5,   6,  7,  8}, // 1
+  {-2,  -1,   0,   1,   2,   3,   4,   5,  6,  7}, // 2
+  {-3,  -2,  -1,   0,   1,   2,   3,   4,  5,  6}, // 3 
+  {-4,  -3,  -2,  -1,   0,   1,   2,   3,  4,  5}, // 4
+  {-5,  -4,  -3,  -2,  -1,   0,   1,   2,  3,  4}, // 5
+  {-6,  -5,  -4,  -3,  -2,  -1,   0,   1,  2,  3}, // 6
+  {-7,  -6,  -5,  -4,  -3,  -2,  -1,   0,  1,  2}, // 7
+  {-8,  -7,  -6,  -5,  -4,  -3,  -2,  -1,  0,  1}, // 8
+  {-9,  -8,  -7,  -6,  -5,  -4,  -3,  -2, -1,  0}  // 9
+};
+print(data[4][2]);
